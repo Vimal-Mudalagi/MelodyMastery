@@ -13,7 +13,7 @@ function Navbar({ className }: { className?: string }) {
                 <Link href={"/"}>
                     <MenuItem setActive={setActive} active={active}
                         item="Home">
-                        test
+                        
                     </MenuItem>
                 </Link>
 
