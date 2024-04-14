@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 const svgToDataUri = require("mini-svg-data-uri");
- 
+
 const colors = require("tailwindcss/colors");
 const { default: flattenColorPalette } = require("tailwindcss/lib/util/flattenColorPalette");
 
@@ -54,7 +54,7 @@ const config: Config = {
     extend: {
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
-        scroll:  "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        scroll: "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
